@@ -1,0 +1,4 @@
+{
+  "buildCommand": "echo 'Building static files'",
+  "outputDirectory": "public/games/Pixeltris"
+}
