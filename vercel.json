@@ -1,4 +1,9 @@
 {
-  "buildCommand": "echo 'Building static files'",
-  "outputDirectory": "public/games/Pixeltris"
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/server.js"
+    }
+  ]
 }
